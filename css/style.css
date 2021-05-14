@@ -1,0 +1,251 @@
+html {
+
+    height: 100%;
+}
+
+body {
+
+    height: 100%;
+    background-color: #343a40!important;
+}
+
+@font-face {
+    
+    font-family: AR;
+    src: url("../fonts/ar-darling.ttf");
+}
+
+/*          nav.html                */
+
+
+.navbar-brand {
+
+    margin: 0;
+    padding: 0;
+    width: 20%;
+    text-align: center;
+}
+
+
+
+.navbar-collapse {
+
+    justify-content: center;
+    text-align: center;
+}
+
+.dropdown-menu {
+
+    text-align: center;
+}
+
+/*          index.html              */
+
+.juryRigText {
+
+    position: absolute;
+    font-family: AR;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 2px;
+    font-size: 180px;
+    width: 100%;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.greetingPic {
+
+    min-height: 700px;
+    /* The image used */
+    background-image: url("../images/greetingbackground.jpeg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+}
+
+.covid{
+
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 2%;
+}
+
+.covidUpdate {
+
+    /*font-family: AR;*/
+    font-size: 55px;
+}
+
+.covidStatement {
+
+    font-size: 12px;
+}
+
+.quickViews {
+
+    color: #eee;
+    min-height: 200px;
+    padding: 1%;
+}
+
+.quickViewTitle a {
+
+    color: white;
+}
+
+.quickViewContent {
+
+    display: flex;
+    flex-flow: wrap;
+}
+
+.index_cards {
+
+    width: 25%;
+    text-align: center;
+    padding: 1%;
+}
+
+.index_img {
+
+    width: 100%;
+}
+
+.index_project_logos{
+
+    width: 100%;
+}
+
+.index_youtube{
+
+    width: 100%;
+    height: 200px;
+}
+
+.index_card_title{
+
+    font-size: 12px;
+}
+
+.index_cinematography{
+
+    width: 100%;
+}
+
+
+/*              footer.html           */
+
+.footer {
+
+    height: 100%;
+    background-color: #eee;
+    padding: 2%;
+}
+
+.footer-media {
+
+    text-align: center;
+    height: 100%;
+}
+
+.footer-top {
+
+    display: flex;
+}
+
+.footer-column-left {
+
+    width: 33.33%;
+}
+
+.footer-column-right {
+
+    width: 66.66%;
+}
+
+.footer-column-top {
+
+    display: flex;
+}
+
+.footer-column {
+
+    width: 50%;
+}
+
+.footer-contact {
+
+    font-size: 25px;
+    padding-bottom: 2%;
+}
+
+.footer-social-media {
+
+    display: flex;
+    padding-bottom: 2%;
+}
+
+.footer-logo {
+
+    width: 25%;
+}
+
+.footer-copyright{
+
+    float: left;
+    height: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+
+    /*                  Index                   */
+    .juryRigText {
+
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .greetingPic {
+
+        min-height: 500px;
+        /*background-image: url("../images/greetingBackGroundSmall.png");*/
+    }
+
+    .covidUpdate {
+
+        font-size: 40px;
+    }
+
+    /*                  Content                 */
+    .quickViews{
+
+        padding-bottom: 5%;        
+    }
+
+    .index_cards{
+
+        width: 50%;
+        padding-top: 3%;
+    }
+
+    .youtube_card{
+
+        width: 100%;
+    }
+
+    /*                  Footer                  */
+
+    .footer {
+
+        font-size:12px;
+    }
+}

@@ -135,9 +135,10 @@ body {
     font-size: 12px;
 }
 
-.index_cinematography{
+.cinematography_card{
 
-    width: 100%;
+    width: 50%;
+    height: 200px;
 }
 
 
@@ -238,6 +239,11 @@ body {
     }
 
     .youtube_card{
+
+        width: 100%;
+    }
+
+    .cinematography_card{
 
         width: 100%;
     }

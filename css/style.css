@@ -254,4 +254,9 @@ body {
 
         font-size:12px;
     }
+
+    .footer-bottom{
+
+        height: 100px;
+    }
 }
